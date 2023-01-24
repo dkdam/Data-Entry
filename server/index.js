@@ -3,8 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const mongoose = require('mongoose');
-const UserModel = require('./models/users')
-
+const UserModel = require('./models/Users')
 
 mongoose.connect(process.env.MONGODB_URL);
 
